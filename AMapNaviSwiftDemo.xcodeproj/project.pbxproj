@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD25BC51CBD05AE00608BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD25BC41CBD05AE00608BF6 /* AppDelegate.swift */; };
+		3AD25BC71CBD05AE00608BF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD25BC61CBD05AE00608BF6 /* ViewController.swift */; };
+		3AD25BCC1CBD05AE00608BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD25BCB1CBD05AE00608BF6 /* Assets.xcassets */; };
+		3AD25BCF1CBD05AE00608BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD25BCD1CBD05AE00608BF6 /* LaunchScreen.storyboard */; };
+		3AD25BD71CBD065E00608BF6 /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD25BD61CBD065E00608BF6 /* AMapNaviKit.framework */; };
+		3AD25BD91CBD066600608BF6 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD25BD81CBD066600608BF6 /* libstdc++.tbd */; };
+		3AD25BDB1CBD066B00608BF6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD25BDA1CBD066B00608BF6 /* libc++.tbd */; };
+		3AD25BDD1CBD066F00608BF6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD25BDC1CBD066F00608BF6 /* libz.tbd */; };
+		3AD25BE21CBD06FA00608BF6 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AD25BE01CBD06FA00608BF6 /* AMap.bundle */; };
+		3AD25BE31CBD06FA00608BF6 /* AMapNavi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AD25BE11CBD06FA00608BF6 /* AMapNavi.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AD25BC11CBD05AE00608BF6 /* AMapNaviSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMapNaviSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD25BC41CBD05AE00608BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AD25BC61CBD05AE00608BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AD25BCB1CBD05AE00608BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AD25BCE1CBD05AE00608BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AD25BD01CBD05AE00608BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD25BD61CBD065E00608BF6 /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapNaviKit.framework; path = AMapNaviSwiftDemo/Extern/AMapNaviKit.framework; sourceTree = "<group>"; };
+		3AD25BD81CBD066600608BF6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		3AD25BDA1CBD066B00608BF6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3AD25BDC1CBD066F00608BF6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3AD25BDF1CBD06D100608BF6 /* AMapNaviSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AMapNaviSwiftDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		3AD25BE01CBD06FA00608BF6 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = AMapNaviSwiftDemo/Extern/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMap.bundle; sourceTree = "<group>"; };
+		3AD25BE11CBD06FA00608BF6 /* AMapNavi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMapNavi.bundle; path = AMapNaviSwiftDemo/Extern/AMapNaviKit.framework/Versions/1.5.0.3533b29/Resources/AMapNavi.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD25BBE1CBD05AE00608BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD25BDD1CBD066F00608BF6 /* libz.tbd in Frameworks */,
+				3AD25BDB1CBD066B00608BF6 /* libc++.tbd in Frameworks */,
+				3AD25BD91CBD066600608BF6 /* libstdc++.tbd in Frameworks */,
+				3AD25BD71CBD065E00608BF6 /* AMapNaviKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AD25BB81CBD05AE00608BF6 = {
+			isa = PBXGroup;
+			children = (
+				3AD25BE01CBD06FA00608BF6 /* AMap.bundle */,
+				3AD25BE11CBD06FA00608BF6 /* AMapNavi.bundle */,
+				3AD25BD61CBD065E00608BF6 /* AMapNaviKit.framework */,
+				3AD25BC31CBD05AE00608BF6 /* AMapNaviSwiftDemo */,
+				3AD25BC21CBD05AE00608BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AD25BC21CBD05AE00608BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD25BC11CBD05AE00608BF6 /* AMapNaviSwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AD25BC31CBD05AE00608BF6 /* AMapNaviSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3AD25BDF1CBD06D100608BF6 /* AMapNaviSwiftDemo-Bridging-Header.h */,
+				3AD25BC41CBD05AE00608BF6 /* AppDelegate.swift */,
+				3AD25BC61CBD05AE00608BF6 /* ViewController.swift */,
+				3AD25BCB1CBD05AE00608BF6 /* Assets.xcassets */,
+				3AD25BCD1CBD05AE00608BF6 /* LaunchScreen.storyboard */,
+				3AD25BD01CBD05AE00608BF6 /* Info.plist */,
+				3AD25BDC1CBD066F00608BF6 /* libz.tbd */,
+				3AD25BDA1CBD066B00608BF6 /* libc++.tbd */,
+				3AD25BD81CBD066600608BF6 /* libstdc++.tbd */,
+			);
+			path = AMapNaviSwiftDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AD25BC01CBD05AE00608BF6 /* AMapNaviSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD25BD31CBD05AE00608BF6 /* Build configuration list for PBXNativeTarget "AMapNaviSwiftDemo" */;
+			buildPhases = (
+				3AD25BBD1CBD05AE00608BF6 /* Sources */,
+				3AD25BBE1CBD05AE00608BF6 /* Frameworks */,
+				3AD25BBF1CBD05AE00608BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMapNaviSwiftDemo;
+			productName = AMapNaviSwiftDemo;
+			productReference = 3AD25BC11CBD05AE00608BF6 /* AMapNaviSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AD25BB91CBD05AE00608BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AutoNavi;
+				TargetAttributes = {
+					3AD25BC01CBD05AE00608BF6 = {
+						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3AD25BBC1CBD05AE00608BF6 /* Build configuration list for PBXProject "AMapNaviSwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AD25BB81CBD05AE00608BF6;
+			productRefGroup = 3AD25BC21CBD05AE00608BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD25BC01CBD05AE00608BF6 /* AMapNaviSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD25BBF1CBD05AE00608BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD25BE21CBD06FA00608BF6 /* AMap.bundle in Resources */,
+				3AD25BE31CBD06FA00608BF6 /* AMapNavi.bundle in Resources */,
+				3AD25BCF1CBD05AE00608BF6 /* LaunchScreen.storyboard in Resources */,
+				3AD25BCC1CBD05AE00608BF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD25BBD1CBD05AE00608BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD25BC71CBD05AE00608BF6 /* ViewController.swift in Sources */,
+				3AD25BC51CBD05AE00608BF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AD25BCD1CBD05AE00608BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD25BCE1CBD05AE00608BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AD25BD11CBD05AE00608BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AD25BD21CBD05AE00608BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AD25BD41CBD05AE00608BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMapNaviSwiftDemo/Extern",
+				);
+				INFOPLIST_FILE = AMapNaviSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapNaviSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AMapNaviSwiftDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		3AD25BD51CBD05AE00608BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMapNaviSwiftDemo/Extern",
+				);
+				INFOPLIST_FILE = AMapNaviSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapNaviSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AMapNaviSwiftDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AD25BBC1CBD05AE00608BF6 /* Build configuration list for PBXProject "AMapNaviSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD25BD11CBD05AE00608BF6 /* Debug */,
+				3AD25BD21CBD05AE00608BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD25BD31CBD05AE00608BF6 /* Build configuration list for PBXNativeTarget "AMapNaviSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD25BD41CBD05AE00608BF6 /* Debug */,
+				3AD25BD51CBD05AE00608BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AD25BB91CBD05AE00608BF6 /* Project object */;
+}
